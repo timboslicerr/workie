@@ -1,0 +1,8 @@
+name = "workie"  # Naam van je Worker
+main = "src/index.js"           # Locatie van je Worker-code (pas aan als nodig)
+compatibility_date = "2024-01-01"
+
+# R2-binding configureren
+[[r2_buckets]]
+binding = "MY_BUCKET"          # Naam van de binding in je Worker-code
+bucket_name = "buckie"  # Naam van je R2-bucket
